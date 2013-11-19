@@ -1,0 +1,17 @@
+INFORMACJE
+
+Moje zmiany w stosunku do treœci zadania:
+-dodanie nowej kulki specjalnej - kamyk. Charakteryzuje siê tym, ¿e nie pasuje do ¿adnego koloru i nigdy nie ulega skreœleniu. 
+-oddzielenie koloru kulki od jej wartoœci - mog¹ istnieæ dwie (lub wiêcej) kulki tego samego koloru o ró¿nych wartoœciach punktowych
+-kulki nie dochodz¹ w nieskoñczonoœæ. Jest ustalona z góry iloœæ kulek, jaka ma zostaæ dogenerowana.
+-doda³em tzw. tryb puli - legalnych jest tak¿e ruch, który nie wywo³uje kasowania szeregu - koniec gry nastêpuje, gdy nie mo¿na tak przestawiæ kulek (w paru ruchach), aby nast¹pi³o skasowanie szeregu
+
+
+
+Kontrowersje:
+-czasami zdawa³o mi siê, ¿e kulka, która ma byæ usuniêta, nie jest usuwana, albo ¿e nastêpuje usuwanie szeregu kulek, który nie powsta³/lub nie zosta³ przynajmniej zmieniony poprzez zaistnia³y ruch. Analizowa³em natomiast grê na zrobionych nagraniach wideo ekranu (program free screen video recorder) i nie wykry³em nieprawid³owoœci. T³umacze to jako z³udzenie wywo³ane tym, ¿e ruch/przemieszczenie kulek nie odbywa siê p³ynnie - nastêpuj¹ skoki z kratki na kratkê s¹siedni¹ i w przypadku, gdy kolor kulki nad usuwan¹ kulk¹ jest taki sam, to ze wzglêdu na szybkoœæ operacji mo¿na mieæ z³udzenie, ¿e kulka nie jest usuwana. 
+-w treœci nie by³o zaznaczone, ¿e na pocz¹tku maj¹ nie istnieæ szeregi kulek o d³ugoœci wiêkszej b¹dŸ równej 3 (tego samego koloru). W mojej grze mo¿e wiêc taka sytuacja mieæ miejsce, chocia¿ oprogramowa³em funkcjê do usuwania czyszczenia szeregów - nic nie stoi na przeszkodzie, aby zapewniæ nieistnienie kasowalnych szeregów na starcie. Nieskasowane, kasowalne szeregi mogê tak¿e istnieæ, gdy kulka kameleon zmieni nagle kolor (w nowej turze) na kolor dwóch przyleg³ych w szeregu kulek - treœæ nie opisuje tej sytuacji, a te¿ nie za bardzo wiadomo, któremu z graczy powinno siê dodaæ punkty. 
+-Mo¿e zdarzyæ siê sytuacja (szczególnie na ma³ej planszy), gdzie na pocz¹tku nie bêdzie dozwolonego ruchu - gra wyœwietli informacje o remisie. 
+-szybkoœæ animacji zale¿y od wielkoœci planszy - im mniejsza plansza, tym wolniej zachodzi animacja, bo jest wiêcej do narysowania - wprowadzê kosmetyczn¹ poprawkê w najbli¿szym czasie i doœlê mailem. 
+-nie oprogramowa³em sprawdzania koñca gry dodatkowego trybu puli
+-Z moich testów wynika, ¿e sprawdzanie, czy ma nast¹piæ koniec gry/czy istnieje ruch w normalnym trybie gry dzia³a bardzo dobrze. Czasem rzeczywiœcie ruch jest trudny do zauwa¿enia dla cz³owieka (szczególnie, gdy jest du¿o kulek specjalnych - zaciemniaj¹ one obraz). Zastanawia³em siê nad dodaniem przycisku informuj¹cym o mo¿liwym ruchu, ale zdecydowa³em siê tego nie robiæ, mimo i¿ funkcja wyœwietlaj¹ca mo¿liwy ruch (lub informuj¹ca o jego braku) jest oprogramowana. 
