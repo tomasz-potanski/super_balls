@@ -1,4 +1,4 @@
-#Logic game: Super Balls! written in Delphi
+#Logical board game: Crazy Balls! written in Delphi
 ---
 - **Technologies**: Delphi, Pascal
 - **Link**: http://potanski.pl/projects/balls_binary.tar.gz
